@@ -1,0 +1,2 @@
+(()=>{"use strict";new class{#e;#t;#n;constructor(){this.#o(),this.#s()}#o(){this.#n=document.getElementById("container"),this.#e=this.#n.querySelector("switch"),this.#t=this.#n.querySelector("font")}#s(){this.#e.addEventListener("change",this.#c),this.#t.addEventListener("change",this.#i)}#c(e){document.documentElement.setAttribute("theme",e.target.checked?"dark-mode":"")}#i(e){document.body.style.fontFamily=e.target.value,console.log(e.target.value)}}})();
+//# sourceMappingURL=bundle.js.map
